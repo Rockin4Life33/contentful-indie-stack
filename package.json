@@ -1,7 +1,13 @@
 {
   "name": "indie-stack-template",
+  "version": "0.1.0",
   "private": true,
   "sideEffects": false,
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://example.com"
+  },
   "scripts": {
     "build": "remix build",
     "dev": "remix dev -c \"npm run dev:serve\"",
