@@ -15,9 +15,11 @@ node_modules
 /public/build
 
 .env
+.env.local
+.env.development
+.env.production
 
 /cypress/screenshots
-/cypress/support
 /cypress/videos
 
 /prisma/data.db

@@ -28,8 +28,9 @@
   },
   "prettier": {},
   "eslintIgnore": [
-    "/node_modules",
     "/build",
+    "/cypress/support",
+    "/node_modules",
     "/public/build"
   ],
   "dependencies": {
