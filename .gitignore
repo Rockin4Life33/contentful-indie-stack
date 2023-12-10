@@ -1,5 +1,8 @@
 # We don't want lockfiles in stacks, as people could use a different package manager
 # This part will be removed by `remix.init`
+/.history
+/.vscode
+
 bun.lockb
 package-lock.json
 pnpm-lock.yaml
@@ -10,9 +13,12 @@ node_modules
 
 /build
 /public/build
+
 .env
 
 /cypress/screenshots
+/cypress/support
 /cypress/videos
+
 /prisma/data.db
 /prisma/data.db-journal
